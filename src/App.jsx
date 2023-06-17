@@ -3,7 +3,7 @@ import "./App.css";
 import Container from "./Components/Container";
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Container />
     </div>
   );

@@ -4,7 +4,7 @@ import MainContent from "./MainContent";
 
 const Container = () => {
   return (
-    <div>
+    <div className="container">
       <Header />
       <MainContent />
     </div>

@@ -13,5 +13,7 @@ module.exports = {
   rules: {
     "react-refresh/only-export-components": "warn",
     "react/react-in-jsx-scope": "off",
+    "object-curly-spacing": ["error", "always"],
+    "object-property-newline": "off",
   },
 };

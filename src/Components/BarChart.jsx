@@ -10,16 +10,16 @@ const BarChart = () => {
   const dayOfWeekIndex = currentDate.getDay();
 
   const color = [
-    "salmon",
-    "salmon",
-    "salmon",
-    "salmon",
-    "salmon",
-    "salmon",
-    "salmon",
+    "hsl(10, 79%, 65%)",
+    "hsl(10, 79%, 65%)",
+    "hsl(10, 79%, 65%)",
+    "hsl(10, 79%, 65%)",
+    "hsl(10, 79%, 65%)",
+    "hsl(10, 79%, 65%)",
+    "hsl(10, 79%, 65%)",
   ];
 
-  color[dayOfWeekIndex - 1] = "teal";
+  color[dayOfWeekIndex - 1] = "hsl(186, 34%, 60%)";
 
   console.log(dayOfWeekIndex, "Day of Week");
   return (
